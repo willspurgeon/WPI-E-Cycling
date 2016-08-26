@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 Will Spurgeon. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface WPI_E_CyclingTests : SenTestCase
+@interface WPI_E_CyclingTests : XCTestCase
 
 @end

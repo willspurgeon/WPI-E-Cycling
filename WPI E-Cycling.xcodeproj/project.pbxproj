@@ -7,22 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE10403617C574C600D105CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10403517C574C600D105CD /* Images.xcassets */; };
+		BE10403917C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.20.13 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BE10403717C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.20.13 PM.png */; };
+		BE10403A17C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.19.56 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BE10403817C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.19.56 PM.png */; };
+		BE11AFC71651F010009DE948 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = BE11AFC61651F010009DE948 /* pin.png */; };
+		BE11AFC91651FEA4009DE948 /* detailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE11AFC81651FEA4009DE948 /* detailView.xib */; };
+		BE28FC751674164C002A8B81 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE28FC741674164B002A8B81 /* DetailViewController.m */; };
 		BE338332164DA1CE00D3D01B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE338331164DA1CE00D3D01B /* UIKit.framework */; };
 		BE338334164DA1CE00D3D01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE338333164DA1CE00D3D01B /* Foundation.framework */; };
 		BE338336164DA1CE00D3D01B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE338335164DA1CE00D3D01B /* CoreGraphics.framework */; };
 		BE33833C164DA1CE00D3D01B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE33833A164DA1CE00D3D01B /* InfoPlist.strings */; };
 		BE33833E164DA1CE00D3D01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE33833D164DA1CE00D3D01B /* main.m */; };
 		BE338342164DA1CE00D3D01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE338341164DA1CE00D3D01B /* AppDelegate.m */; };
-		BE338344164DA1CE00D3D01B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE338343164DA1CE00D3D01B /* Default.png */; };
-		BE338346164DA1CE00D3D01B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE338345164DA1CE00D3D01B /* Default@2x.png */; };
-		BE338348164DA1CE00D3D01B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE338347164DA1CE00D3D01B /* Default-568h@2x.png */; };
 		BE33834B164DA1CE00D3D01B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE338349164DA1CE00D3D01B /* MainStoryboard.storyboard */; };
 		BE33834E164DA1CE00D3D01B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE33834D164DA1CE00D3D01B /* ViewController.m */; };
-		BE338356164DA1CE00D3D01B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE338355164DA1CE00D3D01B /* SenTestingKit.framework */; };
 		BE338357164DA1CE00D3D01B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE338331164DA1CE00D3D01B /* UIKit.framework */; };
 		BE338358164DA1CE00D3D01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE338333164DA1CE00D3D01B /* Foundation.framework */; };
 		BE338360164DA1CE00D3D01B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE33835E164DA1CE00D3D01B /* InfoPlist.strings */; };
 		BE338363164DA1CE00D3D01B /* WPI_E_CyclingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE338362164DA1CE00D3D01B /* WPI_E_CyclingTests.m */; };
+		BE48784716A359870093C973 /* box.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE48784616A359870093C973 /* box.jpg */; };
+		BE48784A16A35AD00093C973 /* WPI-map(small).jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE48784816A35AD00093C973 /* WPI-map(small).jpg */; };
+		BE48784B16A35AD00093C973 /* WPI-map(small)@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE48784916A35AD00093C973 /* WPI-map(small)@2x.jpg */; };
+		BE48784D16A35D270093C973 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE48784C16A35D260093C973 /* Default@2x.png */; };
+		BE48784F16A35E340093C973 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE48784E16A35E340093C973 /* Default.png */; };
+		BE48785116A35E6C0093C973 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE48785016A35E6C0093C973 /* Default-568h@2x.png */; };
+		BE59841C1674587E00A979C3 /* ComposeMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE59841B1674587E00A979C3 /* ComposeMessageViewController.m */; };
+		BE59842116745E1100A979C3 /* box@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE59842016745E1100A979C3 /* box@2x.jpg */; };
+		BE59842516752E5200A979C3 /* WPI App icon2 114.png in Resources */ = {isa = PBXBuildFile; fileRef = BE59842416752E5200A979C3 /* WPI App icon2 114.png */; };
+		BE59842716752E5700A979C3 /* WPI App icon2 57.png in Resources */ = {isa = PBXBuildFile; fileRef = BE59842616752E5700A979C3 /* WPI App icon2 57.png */; };
+		BE74EF4D16542A3900348AA0 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE74EF4C16542A3800348AA0 /* Locations.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE10403517C574C600D105CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE10403717C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.20.13 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot Aug 21, 2013 3.20.13 PM.png"; sourceTree = "<group>"; };
+		BE10403817C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.19.56 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot Aug 21, 2013 3.19.56 PM.png"; sourceTree = "<group>"; };
+		BE11AFC61651F010009DE948 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		BE11AFC81651FEA4009DE948 /* detailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailView.xib; sourceTree = "<group>"; };
+		BE28FC731674164B002A8B81 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BE28FC741674164B002A8B81 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BE33832D164DA1CE00D3D01B /* WPI E-Cycling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WPI E-Cycling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE338331164DA1CE00D3D01B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BE338333164DA1CE00D3D01B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,18 +66,26 @@
 		BE33833F164DA1CE00D3D01B /* WPI E-Cycling-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPI E-Cycling-Prefix.pch"; sourceTree = "<group>"; };
 		BE338340164DA1CE00D3D01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE338341164DA1CE00D3D01B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE338343164DA1CE00D3D01B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BE338345164DA1CE00D3D01B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		BE338347164DA1CE00D3D01B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BE33834A164DA1CE00D3D01B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BE33834C164DA1CE00D3D01B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BE33834D164DA1CE00D3D01B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BE338354164DA1CE00D3D01B /* WPI E-CyclingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WPI E-CyclingTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE338355164DA1CE00D3D01B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE338354164DA1CE00D3D01B /* WPI E-CyclingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WPI E-CyclingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE33835D164DA1CE00D3D01B /* WPI E-CyclingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WPI E-CyclingTests-Info.plist"; sourceTree = "<group>"; };
 		BE33835F164DA1CE00D3D01B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE338361164DA1CE00D3D01B /* WPI_E_CyclingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPI_E_CyclingTests.h; sourceTree = "<group>"; };
 		BE338362164DA1CE00D3D01B /* WPI_E_CyclingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPI_E_CyclingTests.m; sourceTree = "<group>"; };
+		BE48784616A359870093C973 /* box.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = box.jpg; sourceTree = "<group>"; };
+		BE48784816A35AD00093C973 /* WPI-map(small).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WPI-map(small).jpg"; sourceTree = "<group>"; };
+		BE48784916A35AD00093C973 /* WPI-map(small)@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WPI-map(small)@2x.jpg"; sourceTree = "<group>"; };
+		BE48784C16A35D260093C973 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE48784E16A35E340093C973 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE48785016A35E6C0093C973 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE59841A1674587E00A979C3 /* ComposeMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeMessageViewController.h; sourceTree = "<group>"; };
+		BE59841B1674587E00A979C3 /* ComposeMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeMessageViewController.m; sourceTree = "<group>"; };
+		BE59842016745E1100A979C3 /* box@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "box@2x.jpg"; sourceTree = "<group>"; };
+		BE59842416752E5200A979C3 /* WPI App icon2 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WPI App icon2 114.png"; sourceTree = "<group>"; };
+		BE59842616752E5700A979C3 /* WPI App icon2 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WPI App icon2 57.png"; sourceTree = "<group>"; };
+		BE74EF4C16542A3800348AA0 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE338356164DA1CE00D3D01B /* SenTestingKit.framework in Frameworks */,
 				BE338357164DA1CE00D3D01B /* UIKit.framework in Frameworks */,
 				BE338358164DA1CE00D3D01B /* Foundation.framework in Frameworks */,
 			);
@@ -87,6 +114,13 @@
 		BE338322164DA1CE00D3D01B = {
 			isa = PBXGroup;
 			children = (
+				BE10403717C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.20.13 PM.png */,
+				BE10403817C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.19.56 PM.png */,
+				BE48785016A35E6C0093C973 /* Default-568h@2x.png */,
+				BE48784E16A35E340093C973 /* Default.png */,
+				BE48784C16A35D260093C973 /* Default@2x.png */,
+				BE59842616752E5700A979C3 /* WPI App icon2 57.png */,
+				BE59842416752E5200A979C3 /* WPI App icon2 114.png */,
 				BE338337164DA1CE00D3D01B /* WPI E-Cycling */,
 				BE33835B164DA1CE00D3D01B /* WPI E-CyclingTests */,
 				BE338330164DA1CE00D3D01B /* Frameworks */,
@@ -98,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				BE33832D164DA1CE00D3D01B /* WPI E-Cycling.app */,
-				BE338354164DA1CE00D3D01B /* WPI E-CyclingTests.octest */,
+				BE338354164DA1CE00D3D01B /* WPI E-CyclingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +143,6 @@
 				BE338331164DA1CE00D3D01B /* UIKit.framework */,
 				BE338333164DA1CE00D3D01B /* Foundation.framework */,
 				BE338335164DA1CE00D3D01B /* CoreGraphics.framework */,
-				BE338355164DA1CE00D3D01B /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,8 +153,14 @@
 				BE338340164DA1CE00D3D01B /* AppDelegate.h */,
 				BE338341164DA1CE00D3D01B /* AppDelegate.m */,
 				BE338349164DA1CE00D3D01B /* MainStoryboard.storyboard */,
+				BE59841A1674587E00A979C3 /* ComposeMessageViewController.h */,
+				BE59841B1674587E00A979C3 /* ComposeMessageViewController.m */,
+				BE11AFC81651FEA4009DE948 /* detailView.xib */,
 				BE33834C164DA1CE00D3D01B /* ViewController.h */,
 				BE33834D164DA1CE00D3D01B /* ViewController.m */,
+				BE28FC731674164B002A8B81 /* DetailViewController.h */,
+				BE28FC741674164B002A8B81 /* DetailViewController.m */,
+				BE10403517C574C600D105CD /* Images.xcassets */,
 				BE338338164DA1CE00D3D01B /* Supporting Files */,
 			);
 			path = "WPI E-Cycling";
@@ -130,13 +169,12 @@
 		BE338338164DA1CE00D3D01B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE74EF4C16542A3800348AA0 /* Locations.plist */,
+				BE74EF4B16542A0B00348AA0 /* Images */,
 				BE338339164DA1CE00D3D01B /* WPI E-Cycling-Info.plist */,
 				BE33833A164DA1CE00D3D01B /* InfoPlist.strings */,
 				BE33833D164DA1CE00D3D01B /* main.m */,
 				BE33833F164DA1CE00D3D01B /* WPI E-Cycling-Prefix.pch */,
-				BE338343164DA1CE00D3D01B /* Default.png */,
-				BE338345164DA1CE00D3D01B /* Default@2x.png */,
-				BE338347164DA1CE00D3D01B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,6 +196,18 @@
 				BE33835E164DA1CE00D3D01B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE74EF4B16542A0B00348AA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE48784816A35AD00093C973 /* WPI-map(small).jpg */,
+				BE48784916A35AD00093C973 /* WPI-map(small)@2x.jpg */,
+				BE59842016745E1100A979C3 /* box@2x.jpg */,
+				BE48784616A359870093C973 /* box.jpg */,
+				BE11AFC61651F010009DE948 /* pin.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +246,8 @@
 			);
 			name = "WPI E-CyclingTests";
 			productName = "WPI E-CyclingTests";
-			productReference = BE338354164DA1CE00D3D01B /* WPI E-CyclingTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = BE338354164DA1CE00D3D01B /* WPI E-CyclingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,6 +255,7 @@
 		BE338324164DA1CE00D3D01B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0630;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Will Spurgeon";
 			};
@@ -232,10 +283,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE33833C164DA1CE00D3D01B /* InfoPlist.strings in Resources */,
-				BE338344164DA1CE00D3D01B /* Default.png in Resources */,
-				BE338346164DA1CE00D3D01B /* Default@2x.png in Resources */,
-				BE338348164DA1CE00D3D01B /* Default-568h@2x.png in Resources */,
 				BE33834B164DA1CE00D3D01B /* MainStoryboard.storyboard in Resources */,
+				BE11AFC71651F010009DE948 /* pin.png in Resources */,
+				BE11AFC91651FEA4009DE948 /* detailView.xib in Resources */,
+				BE74EF4D16542A3900348AA0 /* Locations.plist in Resources */,
+				BE10403A17C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.19.56 PM.png in Resources */,
+				BE10403917C5755F00D105CD /* iOS Simulator Screen shot Aug 21, 2013 3.20.13 PM.png in Resources */,
+				BE59842116745E1100A979C3 /* box@2x.jpg in Resources */,
+				BE10403617C574C600D105CD /* Images.xcassets in Resources */,
+				BE59842516752E5200A979C3 /* WPI App icon2 114.png in Resources */,
+				BE59842716752E5700A979C3 /* WPI App icon2 57.png in Resources */,
+				BE48784716A359870093C973 /* box.jpg in Resources */,
+				BE48784A16A35AD00093C973 /* WPI-map(small).jpg in Resources */,
+				BE48784B16A35AD00093C973 /* WPI-map(small)@2x.jpg in Resources */,
+				BE48784D16A35D270093C973 /* Default@2x.png in Resources */,
+				BE48784F16A35E340093C973 /* Default.png in Resources */,
+				BE48785116A35E6C0093C973 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +336,8 @@
 				BE33833E164DA1CE00D3D01B /* main.m in Sources */,
 				BE338342164DA1CE00D3D01B /* AppDelegate.m in Sources */,
 				BE33834E164DA1CE00D3D01B /* ViewController.m in Sources */,
+				BE28FC751674164C002A8B81 /* DetailViewController.m in Sources */,
+				BE59841C1674587E00A979C3 /* ComposeMessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +396,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Will Spurgeon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: William Spurgeon (883X9NMY4M)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -346,6 +412,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "F19A8257-E4B5-4A2C-8BB9-B75C49EE5C76";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "614B1BC7-E9A3-434A-9070-1D3582D415D4";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -359,7 +427,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Will Spurgeon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Will Spurgeon";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -367,6 +436,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F19A8257-E4B5-4A2C-8BB9-B75C49EE5C76";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -375,9 +446,13 @@
 		BE338367164DA1CE00D3D01B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WPI E-Cycling/WPI E-Cycling-Prefix.pch";
 				INFOPLIST_FILE = "WPI E-Cycling/WPI E-Cycling-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,9 +461,13 @@
 		BE338368164DA1CE00D3D01B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WPI E-Cycling/WPI E-Cycling-Prefix.pch";
 				INFOPLIST_FILE = "WPI E-Cycling/WPI E-Cycling-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,13 +480,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WPI E-Cycling/WPI E-Cycling-Prefix.pch";
 				INFOPLIST_FILE = "WPI E-CyclingTests/WPI E-CyclingTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -418,13 +497,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WPI E-Cycling/WPI E-Cycling-Prefix.pch";
 				INFOPLIST_FILE = "WPI E-CyclingTests/WPI E-CyclingTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -447,6 +526,7 @@
 				BE338368164DA1CE00D3D01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE338369164DA1CE00D3D01B /* Build configuration list for PBXNativeTarget "WPI E-CyclingTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +535,7 @@
 				BE33836B164DA1CE00D3D01B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

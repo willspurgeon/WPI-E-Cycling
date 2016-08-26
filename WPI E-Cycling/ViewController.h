@@ -8,6 +8,32 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewDelegate>{
+    //UIImageView *image;
+    IBOutlet UIScrollView *scrollView;
+    NSMutableArray *pinButtons;
+    NSArray *locations;
+    UIView *detailView;
+    __weak IBOutlet UIButton *appInfoButton;
+
+    IBOutlet UIButton *detailButton;
+    IBOutlet UILabel *buildingLabel;
+    
+    IBOutlet UIButton *WPIButton;
+    IBOutlet UIButton *WPIRecyclingButton;
+    
+    __weak IBOutlet UINavigationBar *appInfoNAvBar;
+    IBOutlet UIView *appInfoPage;
+}
+
+    
+
+//@property(nonatomic, strong) IBOutlet UIScrollView *scrollView;
+@property(nonatomic, strong) IBOutlet UIImageView *image;
+
+- (IBAction)pushDetailPage:(UIButton*)sender;
+- (IBAction)openRecyclingWeb:(id)sender;
+- (IBAction)openWPIWeb:(id)sender;
+- (IBAction)contactDev:(id)sender;
 
 @end
